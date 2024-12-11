@@ -1,0 +1,7 @@
+start=int(input("Enter of Range:"))
+end=int(input("Enter end of Range:"))
+even_sum=0
+for  num in range(start ,end +1):
+  if num % 2 ==0:
+    even_sum+=num
+  print("sum of even number:",even_sum)
