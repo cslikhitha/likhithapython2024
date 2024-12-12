@@ -1,0 +1,5 @@
+#default Arguments
+def greet(name,message="hello"):
+   print(message+"," + name + "!")
+greet("Alice")#Uses default message
+greet("Bob","Hi")
