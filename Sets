@@ -1,0 +1,29 @@
+Creating a Set
+
+num={1,2,3,4,5}
+print(num)
+
+Set Operations
+
+1. Adding Items
+num.add(6)
+print(num)
+
+2.Removing Items
+num.remove(3)
+print(num)
+
+Set Operations
+
+1. Union:
+set1={1,2,3,4}
+set2={7,8,9,10}
+set1|set2
+
+2. Intersection:
+set1={1,2,3,4}
+set2={7,8,9,10,2,3}
+set1&set2
+
+3. Difference:
+set1-set2
