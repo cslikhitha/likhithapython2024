@@ -1,0 +1,21 @@
+1. Manipulating Lists
+fruits=["apple","banana","cherry"]
+fruits.append("orange")
+fruits.remove("banana")
+print(fruits)
+
+2. Creating a Dictionary
+book={
+    "title":"python Basics",
+    "author":"John Doe",
+    "year":2021}
+print(book["title"])
+book["year"]=2022
+print(book)
+
+3. Working with Sets
+set1={1,2,3,4,5,6}
+set2={4,5,6,7,8,9}
+print("union:",set1|set2)
+print("Intersection:",set1&set2)
+print("Difference:",set1-set2)
