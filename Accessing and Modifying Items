@@ -1,0 +1,14 @@
+1. Accessing:
+print(student["name"])
+
+2. Modifying:
+student["age"]=22
+print(student)
+
+3. Adding:
+student["grage"]="A"
+print(student)
+
+4. Removing:
+del student["marks"]
+print(student)
