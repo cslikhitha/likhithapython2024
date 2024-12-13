@@ -1,0 +1,10 @@
+1. len()
+len(num)
+
+2. sort()
+num.sort()
+num
+
+3. reverse():
+num.reverse()
+num
