@@ -1,0 +1,8 @@
+Lists
+Creating a List
+
+num=[1,2,3,4,5]
+print(num)
+
+mixed=[1,"Hello",3.14]
+print(mixed)
