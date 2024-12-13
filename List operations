@@ -1,0 +1,27 @@
+1. Accessing Items
+print(num[0])
+print(num[-1])
+
+2. Modifying Items
+num[0]=10
+print(num)
+
+3. Adding Items
+
+1= append()
+num.append(6)
+print(num)
+
+2= insert()
+num.insert(1,15)
+print(num)
+
+4. Removing Items
+
+1= remove()
+num.remove(2)
+print(num)
+
+2= pop():
+num.pop(2)
+print(num)
