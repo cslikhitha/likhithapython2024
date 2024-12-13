@@ -1,0 +1,7 @@
+Creating a Dictionary
+
+student={
+    "name":"Alice",
+    "age":20,
+    "marks":85}
+print(student)
