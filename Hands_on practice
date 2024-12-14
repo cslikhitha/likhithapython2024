@@ -1,0 +1,39 @@
+1. Reading and Writing to a File
+
+with open("data.text","w")as file:
+  file.write("python is awesome!\n")
+
+with open("data.text","r")as file:
+    print(file.read())
+
+2.  Appending Data to a File
+
+with open("data.text","a")as file:
+  file.write("Let's learn file handling.\n")
+
+with open("data.text","r")as file:
+    print(file.read())
+
+3.  Handling Division by Zero Error
+
+
+try:
+  num1 = int(input("Enter numerator:"))
+  num2 = int(input("Enter denominator:"))
+  result = num1/num2
+  print("Result:",result)
+except ZeroDivisionError:
+  print("Cannot divide by zero.")
+except ValueError:
+  print("Invalid input! Enter numeric values.")
+
+4. Creating a custom Exception
+def check_positive(number):
+    if number<0:
+     raise NegativeNumberError("Negative numbrer entered.")
+try:
+   num = int(input("Enter a positive number:"))
+   check_positive(number=num)
+   print("You entered a positive number.")
+except NegativeNumberError as e:
+   print(e)
