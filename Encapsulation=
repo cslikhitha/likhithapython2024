@@ -1,0 +1,19 @@
+# Instead of importing 'age', just use 'int' for the age type hint
+class parentClass:
+  def __init__(self, name: str):
+    self.name = name
+  def name1(self):
+      print(f"Hello, my name is {self.name}")
+
+class childClass(parentClass):
+  def __init__(self, name: str, age: int): # Use 'int' for age type hint
+          super().__init__(name)
+          self.age = age
+
+  def age1(self):
+      print(f" {self.age}years old")
+
+# Usage
+child = childClass("Alice", 12) # childClass, not ChildClass
+child.name1()
+child.age1()
