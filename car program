@@ -1,0 +1,40 @@
+class Car:
+  no_of_wheels = 0
+  mileage = 70
+  no_of_seats = 4
+
+  def moveforward(self): # Added self as the first argument
+   print("Moving forward")
+
+  def movebackward(self): # Added self as the first argument
+   print("Moving backward")
+
+  def turnleft(self): # Added self as the first argument
+   print("Turning left")
+
+  def turnright(self): # Added self as the first argument
+   print("Turning right")
+
+# The following code should be outside the class definition:
+car1 = Car()
+print(car1.no_of_seats)
+print(car1.mileage)
+print(car1.no_of_wheels)
+
+car2 = Car()
+print(car2.no_of_seats)
+print(car2.mileage)
+print(car2.no_of_wheels)
+
+car3 = Car()
+car3.mileage = 100
+car3.no_of_wheels = 10
+car3.no_of_seats = 12
+print(car3.no_of_seats)
+print(car3.mileage)
+print(car3.no_of_wheels)
+
+car1.moveforward()
+car1.movebackward()
+car1.turnleft()
+car1.turnright()
